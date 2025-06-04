@@ -19,8 +19,8 @@
     "upgrade-insecure-requests": "1",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
     },
-  "download_link_path": ".\\src\\data\\urls.txt",
-  "file_download_path": ".\\download\\",
+  "download_link_path": "..\\src\\data\\urls.txt",
+  "file_download_path": "..\\download\\",
   "logging": {
     "version": 1,
     "disable_existing_loggers": false,

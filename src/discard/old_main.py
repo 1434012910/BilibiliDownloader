@@ -2,10 +2,10 @@ import os.path
 from urllib.parse import urljoin
 from nibabel.brikhead import filepath
 from twisted.python.formmethod import Submit
-from src.implementations.data_loader import DataLoader
-from src.implementations.network_fetcher import NetworkFetcher
-from src.implementations.network_parser import NetworkParser
-from src.implementations.submit_data import SubmitData
+from src.core.data_loader import DataLoader
+from src.core.network_fetcher import NetworkFetcher
+from src.core.network_parser import NetworkParser
+from src.core.submit_data import SubmitData
 
 from src.utils.utils import cookie_str_to_dict, get_sec_ch_ua, get_platform, get_random_ua, get_sec_ch_ua_mobile, \
     extract_bv_id, check_file_integrity, find_highest_quality_file_index, merge_audio_video, get_file_format, \

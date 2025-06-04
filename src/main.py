@@ -6,10 +6,10 @@ from PyQt5.QtCore import QTimer
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtWidgets import QApplication
 from src.utils.utils import  generate_qrcode, qrcode_to_pixmap, create_window
-from src.implementations.data_loader import DataLoader
-from src.implementations.network_fetcher import NetworkFetcher
-from src.implementations.network_parser import NetworkParser
-from src.implementations.submit_data import SubmitData
+from src.core.data_loader import DataLoader
+from src.core.network_fetcher import NetworkFetcher
+from src.core.network_parser import NetworkParser
+from src.core.submit_data import SubmitData
 from src.utils.utils import (
     cookie_str_to_dict, get_sec_ch_ua, get_platform,
     get_random_ua, get_sec_ch_ua_mobile, extract_bv_id,
